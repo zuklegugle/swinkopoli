@@ -1,6 +1,5 @@
 res://test_scene.tscn
 res://scenes/gameboard_tile/gameboard_tile.tscn
-res://scenes/gameboard_tile/gameboard_tile.gd
 res://test_board.tscn
 res://scenes/pawn/pawn.tscn
 res://scenes/pawn/pawn.gd
