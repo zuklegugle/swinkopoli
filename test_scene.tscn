@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://dunv51gmoifib"]
+
+[ext_resource type="Texture2D" uid="uid://b8f7p047icr0g" path="res://assets/karta1.svg" id="1_hub8w"]
+
+[node name="Node2D" type="Node2D"]
+texture_filter = 1
+scale = Vector2(0.25, 0.25)
+
+[node name="Karta1" type="Sprite2D" parent="."]
+position = Vector2(1056.5, 701.125)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_hub8w")
+
+[node name="Karta2" type="Sprite2D" parent="."]
+position = Vector2(1376.5, 701.125)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_hub8w")
+
+[node name="Karta3" type="Sprite2D" parent="."]
+position = Vector2(2016.5, 701.125)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_hub8w")
+
+[node name="Karta4" type="Sprite2D" parent="."]
+position = Vector2(1696.5, 701.125)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_hub8w")
+
+[node name="Karta5" type="Sprite2D" parent="."]
+position = Vector2(2336.5, 701.125)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_hub8w")
+
+[node name="Karta6" type="Sprite2D" parent="."]
+position = Vector2(2656.5, 701.125)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_hub8w")
+
+[node name="Karta7" type="Sprite2D" parent="."]
+position = Vector2(2976.5, 701.125)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_hub8w")
+
+[node name="Karta8" type="Sprite2D" parent="."]
+position = Vector2(3296.5, 701.125)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_hub8w")

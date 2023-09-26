@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckey8aloalcwt"]
+
+[ext_resource type="Texture2D" uid="uid://bjyk254rwkirb" path="res://assets/icon.svg" id="1_c44so"]
+[ext_resource type="Script" path="res://scenes/pawn/pawn.gd" id="1_dikqk"]
+
+[node name="Pawn" type="PathFollow2D"]
+position = Vector2(112, 104)
+script = ExtResource("1_dikqk")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(0, -32)
+scale = Vector2(0.275, 0.525)
+texture = ExtResource("1_c44so")

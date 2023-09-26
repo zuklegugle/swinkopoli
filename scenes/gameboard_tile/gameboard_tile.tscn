@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dy00brtwu2jo4"]
+
+[ext_resource type="Texture2D" uid="uid://c1gpwqbwua2de" path="res://assets/board_tiles.png" id="1_071tk"]
+[ext_resource type="Script" path="res://scenes/gameboard_tile/gameboard_tile.gd" id="1_a87ox"]
+
+[node name="GameboardTile" type="Node2D"]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_a87ox")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_071tk")
+hframes = 4
+
+[node name="PawnSlotA" type="Marker2D" parent="."]
+position = Vector2(48, -56)
+
+[node name="PawnSlotB" type="Marker2D" parent="."]
+position = Vector2(-40, 48)
